@@ -507,3 +507,112 @@ nome[1] // m
 nome[2] // i
 
 ---
+Imutabilidade das Strings
+
+Strings são imutáveis.
+
+Isso significa que não podemos alterar diretamente um caractere:
+
+let nome = "Emilly";
+
+nome[0] = "A";
+
+Isso não modifica a String original.
+
+Para alterar, precisamos criar uma nova String.
+
+---
+
+7. 📚 Arrays
+
+O que é um Array?
+
+Um Array é uma estrutura utilizada para armazenar vários valores dentro de uma única variável.
+
+let frutas = ["maçã", "banana", "uva"];
+
+Cada elemento possui uma posição chamada índice.
+
+maçã     banana     uva
+ 0          1         2
+
+---
+
+Acessando valores
+
+console.log(frutas[0]);
+
+Resultado:
+
+maçã
+
+---
+
+Alterando valores
+
+frutas[1] = "laranja";
+
+Agora:
+
+["maçã", "laranja", "uva"]
+
+---
+
+Arrays aninhados
+
+Podemos colocar arrays dentro de outros arrays.
+
+let lista = [
+    ["maçã", "banana"],
+    ["carro", "moto"]
+];
+
+Isso é chamado de array multidimensional ou array aninhado.
+
+Para acessar:
+
+lista[0][1];
+
+Resultado:
+
+banana
+
+---
+
+"push()"
+
+Adiciona um elemento ao final do array.
+
+let frutas = ["maçã", "banana"];
+
+frutas.push("uva");
+
+Resultado:
+
+["maçã", "banana", "uva"]
+
+---
+
+"pop()"
+
+Remove o último elemento.
+
+frutas.pop();
+
+---
+
+"shift()"
+
+Remove o primeiro elemento.
+
+frutas.shift();
+
+---
+
+"unshift()"
+
+Adiciona um elemento no início.
+
+frutas.unshift("laranja");
+
+---
