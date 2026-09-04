@@ -117,3 +117,21 @@ O curso apresenta os principais fundamentos da linguagem **JavaScript**, começa
 - Operador ternário múltiplo
 
 ---
+🚀 ES6
+
+Durante a parte final do curso, também foram apresentados recursos introduzidos no ES6 (ECMAScript 2015):
+
+- Diferenças entre "var", "let" e "const"
+- Arrow Functions
+- Parâmetros padrão
+- Rest Operator ("...")
+- Spread Operator ("...")
+- Destructuring Assignment
+- Template Literals
+- Simple Fields
+- Declarative Functions
+- Classes
+- Getters e Setters
+- "import" e "export"
+
+---
